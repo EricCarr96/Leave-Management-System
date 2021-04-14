@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_490092_lms.leave_bucket_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>leave_bucket_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 18:57:19</sys_created_on>
+        <sys_id>3cc7be492fa72010003e2d6df699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_490092_lms.leave_bucket_user</sys_name>
+        <sys_package display_value="Leave Management System" source="x_490092_lms">25bfeac12f672010003e2d6df699b6c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">25bfeac12f672010003e2d6df699b6c4</sys_scope>
+        <sys_update_name>sys_user_role_3cc7be492fa72010003e2d6df699b690</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 18:57:19</sys_updated_on>
+    </sys_user_role>
+</record_update>
