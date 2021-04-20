@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Leave Request" max_length="40" name="x_490092_lms_leave_request" type="collection">
+    <element label="Leave Request" max_length="40" name="x_490092_lms_leave_request" sizeclass="0" type="collection">
         <element label="Accrued" max_length="40" name="accrued" type="float"/>
         <element choice="3" default="nyr" label="Approval" max_length="40" name="approval" type="string">
             <choice>
@@ -10,11 +10,11 @@
             </choice>
         </element>
         <element label="Balance" max_length="40" name="balance" type="float"/>
-        <element label="Comments" max_length="40" name="comments" type="string"/>
+        <element label="Comments" max_length="500" name="comments" type="string"/>
         <element label="Duration" max_length="40" name="duration" type="float"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Half Day" max_length="40" name="half_day" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="cs" label="Leave Type" max_length="40" name="leave_type" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cl" label="Leave Type" max_length="40" name="leave_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Casual" value="cl"/>
                 <element inactive_on_update="false" label="Earned" value="el"/>
